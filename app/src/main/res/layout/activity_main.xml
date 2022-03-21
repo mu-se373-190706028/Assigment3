@@ -26,7 +26,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:clickable="false"
-
         android:text="@string/i_am_not_clicked_yet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:text="@string/_0"
+        android:text="@string/_1"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

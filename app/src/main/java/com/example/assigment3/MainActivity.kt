@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        //Setting variables
         var counter = 1
         val counterButton = findViewById<Button>(R.id.CounterButton)
         val counterText = findViewById<TextView>(R.id.Counter)
@@ -20,11 +20,13 @@ class MainActivity : AppCompatActivity() {
 
         checkBox.setOnClickListener {
             if (checkBox.isChecked) {
+                //If checkbox is checked then button will be enabled and texts changed
                 checkBox.text="Uncheck to reset"
                 counterButton.isClickable = true
                 statusText.text = "Button is now clickable"
                 counterButton.text = "Click to increase"
             } else {
+                //If chackbox is not checked then button will not be clickable and text changed
                 counter= 1
                 counterText.text = "${counter}"
                 counterButton.isClickable = false
@@ -33,6 +35,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         counterButton.setOnClickListener {
+            //If button clicked counter will increase and text changed
             counter *= 5
             counterText.text = "${counter}"
 
