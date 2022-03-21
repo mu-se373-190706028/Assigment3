@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Assigment3</string>
+    <string name="check_to_initialize">Check to Initialize</string>
+    <string name="i_am_not_clicked_yet">I am not clicked yet</string>
+    <string name="_0">0</string>
+    <string name="button_is_not_clickable">Button is not clickable</string>
 </resources>
